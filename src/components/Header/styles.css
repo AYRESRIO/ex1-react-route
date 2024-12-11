@@ -1,0 +1,13 @@
+.ms-header {
+  background-color: var(--ms-color-bg-primary);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.ms-header h1 {
+  color: var(--ms-color-font-primary);
+  font-size: 20px;
+}

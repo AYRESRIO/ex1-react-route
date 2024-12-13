@@ -1,12 +1,22 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Home from "./routes/Home";
-import Inscrição from "./routes/Inscrição";
-import Promoção from "./routes/Promoção";
+
+import ClientHome from "./routes/ClientHome";
+import Home from "./routes/ClientHome/Home";
+import Promoção from "./routes/ClientHome/Promoção";
+import Inscrição from "./routes/ClientHome/Inscrição";
 
 export default function App() {
   return (
-    <>
-      <Promoção />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<ClientHome />}>
+          <Route index element={<Home />} />
+          <Route path="casa" element={<Home />} />
+          <Route path="promocao" element={<Promoção />} />
+          <Route path="inscricao" element={<Inscrição />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }

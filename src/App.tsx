@@ -1,10 +1,10 @@
 import "./App.css";
-import Header from "./components/Header";
+import Inscrição from "./routes/Inscrição";
 
 export default function App() {
   return (
     <>
-      <Header />
+      <Inscrição />
     </>
   );
 }

@@ -27,9 +27,52 @@ body {
   background-color:var( --ms-color-bg-secondary);
 }
 
+#ms-home-section {
+  padding: 30px;
+}
+
+
 .ms-container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
 }
+
+
+
+.ms-inicio {
+  height: 200px;
+  background-color: var(--ms-color-bg-tertiary);
+  border-radius: 6px;
+}
+
+.ms-inicio h1 {
+  padding: 10px 20px;
+  font-size: 20px;
+  color: var(ms-color-font-secondary);
+}
+
+
+.ms-btn {
+  width: 169px;
+  height: 45px;
+  background-color: var(--ms-color-bg-primary);
+  margin-top: 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 13px 20px;
+  color: var(--ms-color-font-primary);
+  font-weight: 700;
+}
+
+
+.ms-btn h1 {
+  font-size: 16px;
+  padding: 13px 20px;
+  color: var(--ms-color-font-primary);
+  font-weight: 700;
+}
+
+
+
 

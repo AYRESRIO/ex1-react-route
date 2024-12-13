@@ -1,6 +1,6 @@
 import Header from "../../components/Header";
-import InicioCard from "../../components/Cards/InicioCard";
 import Button from "../../components/Button";
+import Card from "../../components/Card";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <main>
         <section id="ms-home-section">
           <div className= "ms-container">
-            <InicioCard />
+            <Card pagina="Página inicial"/>
             <Button name="Ver promoção" />
           </div>
         </section>

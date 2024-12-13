@@ -1,6 +1,6 @@
 import Header from "../../components/Header";
-import PromoçãoCard from "../../components/Cards/PromoçãoCard";
 import Button from "../../components/Button";
+import Card from "../../components/Card";
 
 export default function Promoção() {
   return (
@@ -9,7 +9,7 @@ export default function Promoção() {
       <main>
         <section id="ms-home-section">
           <div className="ms-container">
-            <PromoçãoCard />
+            <Card pagina="Página de promoção" />
             <Button name="Quero participar" />
           </div>
         </section>

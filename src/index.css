@@ -31,47 +31,38 @@ body {
   padding: 30px;
 }
 
-
 .ms-container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
 }
 
-
-
 .ms-inicio {
   height: 200px;
   background-color: var(--ms-color-bg-tertiary);
   border-radius: 6px;
-}
-
-.ms-inicio h1 {
   padding: 10px 20px;
   font-size: 20px;
+  font-weight: 700;
   color: var(ms-color-font-secondary);
 }
 
-
 .ms-btn {
   width: 169px;
-  height: 45px;
+  height: 50px;
   background-color: var(--ms-color-bg-primary);
   margin-top: 20px;
   border-radius: 6px;
   font-size: 16px;
-  padding: 13px 20px;
+  padding: 15px 20px ;
   color: var(--ms-color-font-primary);
   font-weight: 700;
+  display: -ms-inline-flexbox;
 }
 
 
-.ms-btn h1 {
-  font-size: 16px;
-  padding: 13px 20px;
-  color: var(--ms-color-font-primary);
-  font-weight: 700;
-}
+
+
 
 
 

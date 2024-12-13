@@ -1,7 +1,5 @@
-
-
 import Button from "../../components/Button";
-import InscriçãoCard from "../../components/Cards/InscriçãoCard";
+import Card from "../../components/Card";
 import Header from "../../components/Header";
 
 export default function Inscrição() {
@@ -11,7 +9,7 @@ export default function Inscrição() {
       <main>
         <section id="ms-home-section">
           <div className="ms-container">
-            <InscriçãoCard />
+            <Card pagina="Página de inscrição" />
             <Button name="Ver promoção" />
           </div>
         </section>
